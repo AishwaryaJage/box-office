@@ -1,7 +1,13 @@
 import React from 'react';
+import MainPageLayout from '../components/MainPageLayout';
 
 function Starred() {
-  return <div>This is our Starred page</div>;
+  return (
+    <div>
+      {' '}
+      <MainPageLayout> This is our Starred page </MainPageLayout>{' '}
+    </div>
+  );
 }
 
 export default Starred;
